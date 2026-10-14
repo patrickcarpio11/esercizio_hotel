@@ -17,7 +17,7 @@ namespace esercizio_hotel
             InitializeComponent();
         }
 
-        private void lbl_n3_Click(object sender, EventArgs e)
+        private void btn_n1_Click(object sender, EventArgs e)
         {
 
         }
