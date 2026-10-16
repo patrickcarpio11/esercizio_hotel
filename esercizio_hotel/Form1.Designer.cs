@@ -71,6 +71,7 @@
             this.cmb_n1.Size = new System.Drawing.Size(160, 24);
             this.cmb_n1.TabIndex = 1;
             this.cmb_n1.Text = "Seleziona Stagione";
+           
             // 
             // lbl_n2
             // 
@@ -89,7 +90,6 @@
             this.lbl_n3.Size = new System.Drawing.Size(81, 20);
             this.lbl_n3.TabIndex = 3;
             this.lbl_n3.Text = "Stagione";
-       
             // 
             // lbl_n4
             // 
@@ -114,6 +114,7 @@
             this.cmb_n2.Size = new System.Drawing.Size(160, 24);
             this.cmb_n2.TabIndex = 5;
             this.cmb_n2.Text = "Seleziona stanza";
+           
             // 
             // chk_n1
             // 
@@ -125,6 +126,7 @@
             this.chk_n1.TabIndex = 6;
             this.chk_n1.Text = "Parcheggio 5€/g";
             this.chk_n1.UseVisualStyleBackColor = true;
+           
             // 
             // pictureBox1
             // 
@@ -152,12 +154,13 @@
             this.nud_n1.Name = "nud_n1";
             this.nud_n1.Size = new System.Drawing.Size(157, 20);
             this.nud_n1.TabIndex = 9;
+           
             // 
             // lbl_n6
             // 
             this.lbl_n6.AutoSize = true;
             this.lbl_n6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n6.Location = new System.Drawing.Point(202, 199);
+            this.lbl_n6.Location = new System.Drawing.Point(202, 203);
             this.lbl_n6.Name = "lbl_n6";
             this.lbl_n6.Size = new System.Drawing.Size(137, 16);
             this.lbl_n6.TabIndex = 10;
