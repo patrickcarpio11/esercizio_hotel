@@ -17,9 +17,11 @@ namespace esercizio_hotel
             InitializeComponent();
         }
         float camera=0, stagione=0;
-        int parcheggio;
+        int parcheggio=0;
         private void btn_n1_Click(object sender, EventArgs e)
         {
+            float costo = 0, sconto;
+            int giorni;
             //Calcolo Stagione
             if (cmb_n1.SelectedIndex == 0)
             {
@@ -62,6 +64,29 @@ namespace esercizio_hotel
             {
                 parcheggio = 0;
             }
+            giorni =Convert.ToInt32( nud_n1.Value);
+            parcheggio = parcheggio * giorni;
+            costo = (15 + camera + stagione) * giorni + parcheggio;
+
+            if (giorni > 7)
+            {
+                sconto = costo * 0.35f;
+            }else if (giorni >= 3 || giorni <= 7)
+            {
+                sconto = costo * 0.25f ;
+            }
+            else
+            {
+                sconto = 0;
+            }
+
+            costo = costo - sconto;
+
+            MessageBox.Show("Il prezzo finale è : " + costo);
+
+
+
+
         }
 
        
