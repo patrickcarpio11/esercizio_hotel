@@ -8000,4 +8000,13 @@
         s+1VOAPmwao3VysiqqQrHtHRe59a7oQsk+pSbZ//2Q==
 </value>
   </data>
+  <data name="lbl_n10.Text" xml:space="preserve">
+    <value>Questo è un programa che serve per prenotare una stanza nel Patrick resort hotel
+ IL funzionamento : abbiamo una opzione multipla sulle stagione bassa , media e alta stagione .
+ Opzione multipla sul tipo di camera base , media e alta stanza . 
+Dopo possiamo scegliere il giorni di allogio e in base a questo si avrà anche uno sconto sul prezzo finale 
+Possiamo scegliere il parcheggio che costa 5 euro al giorno infine abbiamo un bottone che ci dice il prezzo finale .
+Ricclicare per chiudere
+</value>
+  </data>
 </root>

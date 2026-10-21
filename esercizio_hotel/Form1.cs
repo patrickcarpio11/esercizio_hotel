@@ -17,7 +17,20 @@ namespace esercizio_hotel
             InitializeComponent();
         }
         float camera=0, stagione=0;
-        int parcheggio=0;
+        int parcheggio=0 , conta2;
+
+        private void btn_n2_Click(object sender, EventArgs e)
+        {
+           grp_n1.Visible = true;
+
+            conta2++;
+
+            if (conta2 >= 2)
+            {
+                grp_n1.Visible = false;
+            }
+        }
+
         private void btn_n1_Click(object sender, EventArgs e)
         {
             float costo = 0, sconto;
